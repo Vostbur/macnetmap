@@ -8,7 +8,7 @@ import (
 
 func run() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: netmap.exe DIR_WITH_OUTPUT_FILES")
+		fmt.Println("Usage: macnetmap.exe DIR_WITH_OUTPUT_FILES")
 		return
 	}
 	dir := os.Args[1]
