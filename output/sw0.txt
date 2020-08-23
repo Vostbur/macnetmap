@@ -1,0 +1,736 @@
+sw0#sh mac-address-table
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+
+   1    0005.5e00.cb01    DYNAMIC     Fa0/1
+   1    00d0.ba86.0042    DYNAMIC     Fa0/2
+   1    00e0.a366.a667    DYNAMIC     Fa0/1
+
+sw0#sh interfaces 
+FastEthernet0/1 is up, line protocol is up (connected)
+  Hardware is Lance, address is 0001.c730.a201 (bia 0001.c730.a201)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/2 is up, line protocol is up (connected)
+  Hardware is Lance, address is 0001.c730.a202 (bia 0001.c730.a202)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/3 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a203 (bia 0001.c730.a203)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/4 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a204 (bia 0001.c730.a204)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/5 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a205 (bia 0001.c730.a205)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/6 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a206 (bia 0001.c730.a206)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/7 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a207 (bia 0001.c730.a207)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/8 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a208 (bia 0001.c730.a208)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/9 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a209 (bia 0001.c730.a209)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/10 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a20a (bia 0001.c730.a20a)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/11 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a20b (bia 0001.c730.a20b)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/12 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a20c (bia 0001.c730.a20c)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/13 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a20d (bia 0001.c730.a20d)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/14 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a20e (bia 0001.c730.a20e)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/15 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a20f (bia 0001.c730.a20f)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/16 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a210 (bia 0001.c730.a210)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/17 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a211 (bia 0001.c730.a211)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/18 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a212 (bia 0001.c730.a212)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/19 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a213 (bia 0001.c730.a213)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/20 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a214 (bia 0001.c730.a214)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/21 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a215 (bia 0001.c730.a215)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/22 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a216 (bia 0001.c730.a216)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/23 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a217 (bia 0001.c730.a217)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/24 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a218 (bia 0001.c730.a218)
+ BW 100000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 100Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/1 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a219 (bia 0001.c730.a219)
+ BW 1000000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 1000Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/2 is down, line protocol is down (disabled)
+  Hardware is Lance, address is 0001.c730.a21a (bia 0001.c730.a21a)
+ BW 1000000 Kbit, DLY 1000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Half-duplex, 1000Mb/s
+  input flow-control is off, output flow-control is off
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:08, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue :0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     956 packets input, 193351 bytes, 0 no buffer
+     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     2357 packets output, 263570 bytes, 0 underruns
+     0 output errors, 0 collisions, 10 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+
+Vlan1 is administratively down, line protocol is down
+  Hardware is CPU Interface, address is 000c.cf77.3b66 (bia 000c.cf77.3b66)
+  MTU 1500 bytes, BW 100000 Kbit, DLY 1000000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 21:40:21, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     1682 packets input, 530955 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicast)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     563859 packets output, 0 bytes, 0 underruns
+     0 output errors, 23 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+
+sw0#
