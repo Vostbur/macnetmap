@@ -44,14 +44,29 @@ func run() {
 	var ls linksStructJson
 	var ns nodesStructJson
 	for indDevice, valDevice := range d {
+		ns.Nodes = append(ns.Nodes, nodesStruct{
+			Icon: "switch",
+			Id:   indDevice,
+			Name: d[indDevice].Hostname,
+		})
 		for interfDevice, macDevice := range valDevice.Interfaces {
 			for otherIndDevice, otherValDevice := range d {
 				if otherIndDevice == indDevice {
 					continue
 				}
+			LOUT:
 				for macFromTableOtherDevice, intFromTableOtherDevice := range otherValDevice.MacTable {
 					if macFromTableOtherDevice == macDevice {
-						i += 1
+						// Проверяем на дублирование линков
+						if i == 0 {
+							goto L1
+						}
+						for j := 0; j < i; j++ {
+							if ls.Links[j].Source == otherIndDevice && ls.Links[j].Target == indDevice {
+								continue LOUT
+							}
+						}
+					L1:
 						ls.Links = append(ls.Links, linksStruct{
 							Id:        i,
 							Source:    indDevice,
@@ -61,11 +76,7 @@ func run() {
 							TgtDevice: d[otherIndDevice].Hostname,
 							TgtIfName: intFromTableOtherDevice,
 						})
-						ns.Nodes = append(ns.Nodes, nodesStruct{
-							Icon: "switch",
-							Id:   indDevice,
-							Name: d[indDevice].Hostname,
-						})
+						i += 1
 					}
 				}
 			}

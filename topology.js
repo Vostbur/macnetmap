@@ -1,44 +1,17 @@
 var topologyData = {
 	"links": [
 		{
-			"id": 1,
+			"id": 0,
 			"source": 0,
 			"srcDevice": "sw3",
 			"srcIfName": "FastEthernet0/1",
-			"target": 1,
-			"tgtDevice": "sw2",
-			"tgtIfName": "Fa0/2"
-		},
-		{
-			"id": 2,
-			"source": 1,
-			"srcDevice": "sw2",
-			"srcIfName": "FastEthernet0/1",
 			"target": 2,
-			"tgtDevice": "sw1",
+			"tgtDevice": "sw2",
 			"tgtIfName": "Fa0/2"
 		},
 		{
-			"id": 3,
+			"id": 1,
 			"source": 1,
-			"srcDevice": "sw2",
-			"srcIfName": "FastEthernet0/2",
-			"target": 0,
-			"tgtDevice": "sw3",
-			"tgtIfName": "Fa0/1"
-		},
-		{
-			"id": 4,
-			"source": 2,
-			"srcDevice": "sw1",
-			"srcIfName": "FastEthernet0/2",
-			"target": 1,
-			"tgtDevice": "sw2",
-			"tgtIfName": "Fa0/1"
-		},
-		{
-			"id": 5,
-			"source": 2,
 			"srcDevice": "sw1",
 			"srcIfName": "FastEthernet0/1",
 			"target": 3,
@@ -46,12 +19,12 @@ var topologyData = {
 			"tgtIfName": "Fa0/1"
 		},
 		{
-			"id": 6,
-			"source": 3,
-			"srcDevice": "sw0",
-			"srcIfName": "FastEthernet0/1",
+			"id": 2,
+			"source": 1,
+			"srcDevice": "sw1",
+			"srcIfName": "FastEthernet0/2",
 			"target": 2,
-			"tgtDevice": "sw1",
+			"tgtDevice": "sw2",
 			"tgtIfName": "Fa0/1"
 		}
 	],
@@ -64,22 +37,12 @@ var topologyData = {
 		{
 			"icon": "switch",
 			"id": 1,
-			"name": "sw2"
-		},
-		{
-			"icon": "switch",
-			"id": 1,
-			"name": "sw2"
-		},
-		{
-			"icon": "switch",
-			"id": 2,
 			"name": "sw1"
 		},
 		{
 			"icon": "switch",
 			"id": 2,
-			"name": "sw1"
+			"name": "sw2"
 		},
 		{
 			"icon": "switch",
